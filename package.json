@@ -1,0 +1,35 @@
+{
+  "name": "uebung7",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.16.3",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
+  },
+  "description": "#Aufgabe 1: Themenwahl",
+  "main": "Index.html",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NMoors/Uebung7.git"
+  },
+  "keywords": [
+    "WebApp",
+    "Kumo",
+    "Wetter",
+    "Kochen"
+  ],
+  "author": "Nauka Moors",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NMoors/Uebung7/issues"
+  },
+  "homepage": "https://github.com/NMoors/Uebung7#readme"
+}
