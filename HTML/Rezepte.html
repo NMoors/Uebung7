@@ -11,6 +11,7 @@
             <p> testtext</p>
         </div> -->
         <img src="../PNG/banner.png" id="banner">
+        <script src="../JS/Rezepte.js"></script>
         
         
         <div class="main">
@@ -23,10 +24,24 @@
                     <p>Projekte</p>
                 </div>
                 <div class="content" >            
-                  <p>             
-                    Wie bereits erwähnt koche ich sie gerne. Deswegen habe ich euch eine Sammlung von Rezepten 
-                    zusammen gestellt. Gebt einfach ein, was ihr essen möchtet und ich schaue, ob ich etwas für euch finde :)
-                </p>
+                    <p>             
+                        Wie bereits erwähnt koche ich sie gerne. Deswegen habe ich euch eine Sammlung von Rezepten 
+                        zusammen gestellt. Gebt einfach ein, was ihr essen möchtet und ich schaue, ob ich etwas für euch finde :)
+                    </p>
+                <form>
+                    Aufwand <input type="number"  id="Aufwand" placeholder="in Minuten" required /><br><br>
+                    Kohlenhydrate <select name="Kohlenhydrate" >
+                        <option>Reis</option>
+                        <option>Brot</option>
+                        <option>Nudeln</option>
+                        <option>Kartoffeln</option>
+                        <option>Haferflocken</option>
+                    </select><br><br>
+                    Zutaten <input type="test" id="Zutaten" placeholder="mit , trennen" required />
+                </form>
+                <button type="button" id="Submit" value="Submit">Absenden</button>
+                    <div id="Erg"></div>
+                    
                 </div>
             
         </div>

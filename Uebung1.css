@@ -88,11 +88,6 @@ body {
 	margin: 10px 10px 10px 10px;  
 	outline: none; 
 }*/
-p{ 
-	text-align: center; 
-	position: relative; 
-	margin: 50px;	
- }
 
 /* Bodypart */
 .main {
@@ -121,12 +116,14 @@ p{
 
 .side p {
 	text-align: left;
-	position: relative;
 	font-family: Calibri;
 	font-size: 150%;
 	width: 5%;
 	height: 5%;
 	color: black;
+	text-align: center; 
+	position: relative; 
+	margin: 40px;	
 }
 
 .side a:hover{
@@ -149,12 +146,15 @@ p{
 }
 
 .content p{
-	text-align: block;
+	text-align: left;
 	position: relative;
 	bottom: 10%;
-	/* margin: 10px; */
-	widows: 70%;
-	display: inline;
+	top: 10%;
+	display: block;
+}
+form{
+	position: relative;
+	margin: 5%;
 }
 
 #nanda{
@@ -178,11 +178,12 @@ p{
 	box-shadow: 0 0 40px darkgreen;
 }
 .footer p{ 
-	text-align: block;
 	position: relative;
 	margin: auto;
 	top: 15px;
- }
+	text-align: center; 
+	margin: 50px;	
+	}
 
 } 
 
