@@ -47,7 +47,6 @@ body {
 	margin: 0px 0px;
 	font-family: Calibri;
 	font-size: 100%;
-
 }
 
 .header {
@@ -63,36 +62,15 @@ body {
 	position: relative;
 	left: 10% ;
 	margin: 50px 0px;
-	/* border: 2px solid #fff;  */
-	/* outline: none; */
-	
 }
 
 #banner{
 	display: none;
 }
 
-/*.news{
-	
-	 height: 50px;
-	width: 80%;
-	top: 5%;
-	bottom: 5%;
-	left: 10% ;
-	position: relative;
-	border-radius: 40px; 
-	border-color: #fff;
-	box-shadow: 0 0 40px darkgreen;
-	background-color: rgba(255, 255, 255, 0.5); 
-	border: 2px solid #fff;  
-	margin: 10px 10px 10px 10px;  
-	outline: none; 
-}*/
-
 /* Bodypart */
 .main {
-	
-	/* height: 80%; */
+
 	overflow: hidden;
 	width: 74%;
 	background-color: rgba(255, 255, 255, 0.5);
@@ -101,9 +79,7 @@ body {
 	box-shadow: 0 0 40px darkgreen;
 	position: relative;
 	margin: 50px auto;
-	/* top: 10%;
-	bottom: 25%;
-	left: 10% ; */
+
 	padding: 3% 3% ;
 }
 
@@ -137,8 +113,6 @@ body {
 
 .content {
 	position:relative;
-	/* top: 10%;
-	bottom: 10%; */
 	right: 5%;
 	left: 10%;
 	width: 70%;
@@ -152,6 +126,7 @@ body {
 	top: 10%;
 	display: block;
 }
+
 form{
 	position: relative;
 	margin: 5%;
@@ -177,12 +152,12 @@ form{
 	border-color: #fff;
 	box-shadow: 0 0 40px darkgreen;
 }
+
 .footer p{ 
 	position: relative;
 	margin: auto;
 	top: 15px;
 	text-align: center; 
-	margin: 50px;	
 	}
 
 } 
