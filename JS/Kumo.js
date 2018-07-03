@@ -98,7 +98,6 @@ window.onload = function(){
 	
 	myAnimation();
 
-	zaehlen();
 }
 
 
