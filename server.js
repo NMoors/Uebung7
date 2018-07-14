@@ -15,13 +15,12 @@ app.get('/', function(req, res) {
   console.log('body:', body); // Print the HTML for the Google homepage.
   obj = JSON.parse(body);
   console.log(obj.title);
+  console.log(obj);
 });
 
-res.render('/HTML/Index.html', {data: obj});
+res.send('/HTML/Kumo.html', {data: obj});
 
 });
-
-
 
 
 app.listen(8080);
