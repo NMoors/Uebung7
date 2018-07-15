@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  .header
+    #banner
+
+  .main
+
+    .side
+      p
+        a(href='/main') Home
+      p
+        a(href="/public/main.pug") Rezepte
+      p 
+        a(href="/public/main.pug") Wetter
+      p 
+        a(href="/public/main.pug") Comics
+      p
+        a(href="/public/main.pug") Projekte
+    
+    .content
+      p Welcome to #{title}
+      p Heutiger Ghibli Film: #{ghibli}
+
+  .footer
+    p Hier kommt noch was hin

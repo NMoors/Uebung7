@@ -1,0 +1,164 @@
+@media print {
+  .body{
+    font-family: Calibri;
+    font-size: 100%;
+    width: 100%;
+  }
+  .main {
+      overflow: hidden;
+      position: relative;
+      margin: 50px auto;
+    }
+  
+  .side {
+    display: none;
+    }
+  
+  .content{
+    position:relative;
+    float: left;
+    width: auto;
+    }
+  
+  .footer{
+    display: none;
+  }
+  
+  #nanda{
+    float: right;;
+    width: 30%;
+    position: relative;
+    right: 5%;
+    left: 10px;
+    }
+  
+  #banner{
+    position: relative;
+    }
+  }
+  
+  @media screen{
+  /* Headerteil */
+  body {
+    background-color: #509096;
+    background-image: url("/PNG/bambus.png");
+    /* padding: 50px 50px 0 50px; */
+    left: 25%;
+    margin: 0px 0px;
+    font-family: Calibri;
+    font-size: 100%;
+  }
+  
+  .header {
+    height: 270px;
+    width: 80%;
+    background-image: url("/PNG/banner.png");
+    background-color: rgba(255, 255, 255, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 40px; 
+    border-color:#fff;
+    box-shadow: 0 0 40px darkgreen;
+    position: relative;
+    left: 10% ;
+    margin: 50px 0px;
+  }
+  
+  #banner{
+    display: none;
+  }
+  
+  /* Bodypart */
+  .main {
+  
+    overflow: hidden;
+    width: 74%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 40px; 
+    border-color: #fff;
+    box-shadow: 0 0 40px darkgreen;
+    position: relative;
+    margin: 50px auto;
+  
+    padding: 3% 3% ;
+  }
+  
+  .side {
+    position: relative;
+    left: 2%;
+    width: 15%;
+    float:left;
+  }
+  
+  .side p {
+    text-align: left;
+    font-family: Calibri;
+    font-size: 150%;
+    width: 5%;
+    height: 5%;
+    color: black;
+    text-align: center; 
+    position: relative; 
+    margin: 40px;	
+  }
+  
+  .side a:hover{
+    color: lightgreen;
+  }
+  
+  .side a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  .content {
+    position:relative;
+    right: 5%;
+    left: 10%;
+    width: 70%;
+    float: left;
+  }
+  
+  .content p{
+    text-align: left;
+    position: relative;
+    bottom: 10%;
+    top: 10%;
+    display: block;
+  }
+  
+  form{
+    position: relative;
+    margin: 5%;
+  }
+  
+  #nanda{
+    float: right;;
+    width: 30%;
+    position: relative;
+    right: 5%;
+    left: 10px;
+  }
+  
+  /* Footer stuff */
+  .footer{
+    height: 10%;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;	
+    left: 10% ;
+    bottom:0%;
+    border-radius: 40px 40px 0 0; 
+    border-color: #fff;
+    box-shadow: 0 0 40px darkgreen;
+  }
+  
+  .footer p{ 
+    position: relative;
+    margin: auto;
+    top: 15px;
+    text-align: center; 
+    }
+  } 
+  
+  

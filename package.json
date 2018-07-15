@@ -1,23 +1,17 @@
 {
-  "name": "uebung7",
-  "version": "1.0.0",
-  "description": "Final App",
-  "main": "Index.html",
-  "dependencies": {
-    "express": "^4.16.3"
-  },
-  "devDependencies": {},
+  "name": "finalewebapp",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NMoors/Uebung7.git"
-  },
-  "author": "Nauka Moors",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NMoors/Uebung7/issues"
-  },
-  "homepage": "https://github.com/NMoors/Uebung7#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "request": "^2.87.0"
+  }
 }
