@@ -1,4 +1,4 @@
 # Nadas Blog
-Webseit includig HTMl, Nodejs, CSS, JS
+Webseit includig HTML, Nodejs, CSS, JS
 
 WIP: formular
