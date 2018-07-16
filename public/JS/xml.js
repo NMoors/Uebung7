@@ -12,7 +12,7 @@ function holeFilm(){
         obj = JSON.parse(body);
         console.log(obj[i].title);
         erg = JSON.stringify(obj[i].title);
-        document.getElementById("Erg");
+        document.getElementById("Erg").innerHTML = erg;
         }
     };
   
