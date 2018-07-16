@@ -1,7 +1,7 @@
 
 
 function holeFilm(){
-    console.log("Test");
+    
     var xhttp = new XMLHttpRequest();
   //  var url = "https://ghibliapi.herokuapp.com/films";
 
@@ -9,8 +9,8 @@ function holeFilm(){
         if (this.readyState == 4 && this.status == 200) {
         // Typical action to be performed when the document is ready:
         const i = Math.floor(Math.random()*20);
-        obj = JSON.parse(body);
-        console.log(obj[i].title);
+        obj = JSON.parse(xhttp.responseText);
+        //console.log(obj[i].title);
         erg = JSON.stringify(obj[i].title);
         document.getElementById("Erg").innerHTML = erg;
         }
@@ -21,4 +21,5 @@ function holeFilm(){
     xhttp.send();
     }   
 
-holeFilm();
+
+//obj = JSON.parse(xhttp.responseText); //JSON.parse(body);
