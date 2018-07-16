@@ -1,11 +1,4 @@
-var n = 25;
-function schleife()
-{
-    for(var i=1; i<n; i++ ) 
-    if (i%10 == 0)  console.log(i + " One more decade: time flies like an arrow! \n");
-    else   console.log(i + " \n");
-}
-schleife(n);
+
 
 var zahlen = [];
 function zaehlen(){
@@ -32,3 +25,5 @@ function zaehlen(){
     document.getElementById("kl").innerHTML = kleinste;
     document.getElementById("gr").innerHTML = groeste;
 }
+zaehlen();
+
